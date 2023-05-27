@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    background-image:url(p.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.form{
+    border: 3px solid rgb(155, 148, 148);
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
+    background-color: rgb(247, 244, 244);
+    border-radius: 5px;
+} 
+.heading{
+    text-align: center;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    
+}
+fieldset{
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+input[type="Submit"]{
+    background-color: rgba(39, 201, 201, 0.87);
+    padding: 10px;
+    border: 2px solid;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    font-size: 20px;
+    font-family: Cambria;
+}
+input[type="Submit"]:hover{
+    background-color: rgb(44, 24, 136);
+} 
